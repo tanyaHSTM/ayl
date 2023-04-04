@@ -8,9 +8,9 @@ source "http://rubygems.org"
 group :development do
   gem "rspec", "~> 2.14"
   gem "bundler", "~> 1.10"
-  gem "jeweler", "~> 2.0"
+  gem "jeweler", "~> 2.0", ">= 2.0.1"
 end
 
 group :test, :development do
-  gem 'pry', "~> 0.9"
+  gem 'pry', '~> 0.9', '>= 0.9.7.4'
 end
